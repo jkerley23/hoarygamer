@@ -5,6 +5,10 @@ collections:
   music:
     title: Music
     output: true
+    Author:
+    - name
+    - bio
+    - image
   posts:
     title: Posts
     output: true
