@@ -21,3 +21,10 @@ defaults:
   values:
     layout: page
 permalink: pretty
+- scope:
+    path: ''
+    type: music
+  values:
+    layout: post
+    author: 
+    permalink: "/posts/:title/"
