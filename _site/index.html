@@ -1,19 +1,6 @@
 
 
 <head>
-
-<script type="text/javascript">
-$('.navbar-right li').on('click', function(){
-    $(this).siblings().removeClass('active');
-    $(this).addClass('active');
-});
-
-$('a[href*=\\#]').on('click', function(event){     
-    event.preventDefault();
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-}); 
-</script>
-
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
