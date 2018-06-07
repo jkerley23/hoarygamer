@@ -51,6 +51,11 @@ right-nav a:hover {
   text-deceration: none;
 }
 
+.navbar {
+  background-color: #191717;
+}
+
+
 .container-top {
   background-color: #f2eeea;
   width: 100%;
