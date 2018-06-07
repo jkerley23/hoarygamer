@@ -58,15 +58,17 @@ right-nav a:hover {
 .container-top {
   background-color: #f2eeea;
   width: 100%;
-  padding-top: 5%;
-  padding-bottom: 2%;
+  padding-top: 10%;
+  padding-bottom: 8%;
   text-align: center;
 }
 
-.container-highlights {
+.container-culture {
   background-color: #f2eeea;
   text-align: center;
   width: 100%;
+  padding-top: 5%;
+  padding-bottom: 2%;
   border-top-style: solid;
   border-width: 5px;
 }
@@ -75,8 +77,20 @@ right-nav a:hover {
   background-color: #a6aab2;
   text-align: center;
   width: 100%;
+  padding-top: 5%;
+  padding-bottom: 2%;
   border-top-style: solid;
   border-width: 5px;
+}
+
+.container-music {
+  background-color: #f2eeea;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  border-top-style: solid;
+  border-width: 5px;
+  width: 100%;
 }
 
 .container-fluid p {
@@ -85,15 +99,6 @@ right-nav a:hover {
 
 .contact {
   background-color: #a6aab2;
-  text-align: center;
-  padding-top: 2%;
-  border-top-style: solid;
-  border-width: 5px;
-  width: 100%;
-}
-
-.container-music {
-  background-color: #f2eeea;
   text-align: center;
   padding-top: 2%;
   border-top-style: solid;
