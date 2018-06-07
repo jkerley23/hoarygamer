@@ -1,16 +1,20 @@
 
-
+<!doctype html>
+<html lang="en">
 <head>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Lato|Supermercado+One" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Raleway|Sedgwick+Ave" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<!-- Styles -->
+
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+
 <link rel="stylesheet" href="style.css">
 
 <meta charset="utf-8">
@@ -19,22 +23,6 @@
 </head>
 
 <body>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-<script type="text/javascript">
-$('.navbar-right li').on('click', function(){
-    $(this).siblings().removeClass('active');
-    $(this).addClass('active');
-});
-
-$('a[href*=\\#]').on('click', function(event){     
-    event.preventDefault();
-    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-}); 
-</script>
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
@@ -99,7 +87,7 @@ $('a[href*=\\#]').on('click', function(event){
   <h2>MUSIC</h2>  
   <p>We hate noise.</p>  
 
-  {{ music['name'] }}
+  {{ music['author.name'] }}
  
     <div class="container-fluid">
     
@@ -153,5 +141,24 @@ $('a[href*=\\#]').on('click', function(event){
     </ul>
   
 </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+$('.navbar-right li').on('click', function(){
+    $(this).siblings().removeClass('active');
+    $(this).addClass('active');
+});
+
+$('a[href*=\\#]').on('click', function(event){     
+    event.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+});
+
+</script>
   
 </body>
+
+</html>
