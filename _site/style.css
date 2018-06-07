@@ -40,8 +40,7 @@ h6 {
 }
 
 left-nav {
-  font-family: 'Sedgwick Ave', cursive;
-}
+  font-family: 'Sedgwick Ave', cursive;}
 
 right-nav {
   font-family: 'Sedgwick Ave', cursive;
@@ -55,11 +54,6 @@ right-nav a:hover {
   color: red;
   text-deceration: none;
 }
-
-/* .navbar {
-  background-color: #191717;
-} */
-
 
 .container-top {
   background-color: #f2eeea;

@@ -26,18 +26,16 @@
 
 <body>
 
-<nav class="navbar fixed-top">
+<nav class="navbar fixed-top navbar-dark bg-dark">
     <div class="container-fluid">
       <div class="navbar-header">
-  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar" aria-controls="#myNavbar" aria-expanded="false" aria-label="Toggle navigation"><h6><img src="/assets/images/terminal-3x.png"></h6>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                   
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar" aria-controls="#myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>                  
       </button>
-      <a class="navbar-brand" href="#"><left-nav>The Hoary Gamer</left-nav></a>
+      <a class="navbar-brand" href="top"><left-nav>The Hoary Gamer</left-nav></a>
     </div>
         <div class="collapse navbar-collapse" id="myNavbar" role="navigation">
-    <ul class="nav navbar-nav navbar-right">
+    <ul class="navbar-nav mr-auto">
        <right-nav>
       <li><a href="#games">Games</a></li>
       <li><a href="#music">Music</a></li>
@@ -52,10 +50,9 @@
 <h5>THE HOARY GAMER</h5>
   <h4></br><em>hoar·y: old and trite.</em></h4>
     <h4></br>A site where hoary people write hoary things about hoary things.</h4>
-  
 </div>
   
-<div class="container-games" id="games"> 
+<div class="container-games"> 
   </br>
   <h2>GAMES</h2>
   </br>
@@ -149,12 +146,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
-$('.navbar-right li').on('click', function(){
-    $(this).siblings().removeClass('active');
-    $(this).addClass('active');
-});
-
-$('.navbar-brand').on('click', function(){
+$('.navbar li').on('click', function(){
     $(this).siblings().removeClass('active');
     $(this).addClass('active');
 });
