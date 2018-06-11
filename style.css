@@ -131,10 +131,8 @@ right-nav a:hover {
   border-color:#343a40;
 }
 
-.navbar-toggler active {
-  outline: none !important;
-  -webkit-box-shadow: none;
- 
+.navbar-toggler:not(:disabled):not(.disabled) {
+    outline: none;
 }
 
 
