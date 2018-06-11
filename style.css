@@ -93,6 +93,10 @@ right-nav a:hover {
   width: 100%;
 }
 
+.container-music a {
+  color: black;
+}
+
 .container-fluid p {
   padding-bottom: 10%;
 }
@@ -122,6 +126,17 @@ right-nav a:hover {
   text-decoration: none;
   display: inline-block;
 }
+
+.navbar-dark .navbar-toggler {
+  border-color:#343a40;
+}
+
+.navbar-toggler active {
+  outline: none !important;
+  -webkit-box-shadow: none;
+ 
+}
+
 
 @media screen and (max-width: 1035px) {
   
