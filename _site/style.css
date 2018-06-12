@@ -132,7 +132,7 @@ right-nav a:hover {
 }
 
 .navbar-toggler:not(:disabled):not(.disabled) {
-    outline: none;
+  outline: none;
 }
 
 
